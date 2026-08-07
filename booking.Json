@@ -1,0 +1,34 @@
+[
+  {
+    "trackingNumber": "SW1785947538672",
+    "pickupAddress": "karachi",
+    "deliveryAddress": "lahore",
+    "packageDetails": "documents",
+    "date": "8/5/2026, 9:32:18 AM",
+    "status": "In Transit"
+  },
+  {
+    "trackingNumber": "SW1785997708495",
+    "pickupAddress": "Lahore",
+    "deliveryAddress": "Islamabad",
+    "packageDetails": "Clothes",
+    "status": "Booked",
+    "date": "8/5/2026, 11:28:28 PM"
+  },
+  {
+    "trackingNumber": "SW1786032044235",
+    "pickupAddress": "Karachi",
+    "deliveryAddress": "Lahore",
+    "packageDetails": "Documents",
+    "status": "Picked Up",
+    "date": "8/6/2026, 9:00:44 AM"
+  },
+  {
+    "trackingNumber": "SW1786035328658",
+    "pickupAddress": "Lahore",
+    "deliveryAddress": "Islamabad",
+    "packageDetails": "Shoes",
+    "status": "Booked",
+    "date": "8/6/2026, 9:55:28 AM"
+  }
+]

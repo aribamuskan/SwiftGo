@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 40px;
+    color: #1f2937;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+#bookingsList {
+    margin-top: 30px;
+}
+
+#bookingsList > div {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.admin-header {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.admin-header h1 {
+    margin: 0 0 5px 0;
+}
+
+.admin-header p {
+    margin: 0;
+    color: #6b7280;
+}
+
+.logout-btn {
+    background: #dc3545;
+    color: white;
+    padding: 11px 22px;
+}
+/* Professional Booking Cards */
+#bookingsList > div {
+    background: #ffffff;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+#bookingsList h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #1e3a8a;
+}
+
+#bookingsList p {
+    margin: 7px 0;
+    color: #374151;
+}
+
+#bookingsList select {
+    margin-top: 12px;
+    min-width: 170px;
+}
+
+#bookingsList button {
+    background: #2563eb;
+    color: white;
+    margin-top: 12px;
+}
+/* Dashboard Summary Cards */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stat-card {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-size: 28px;
+    color: #2563eb;
+}
+
+.stat-card p {
+    margin: 7px 0 0;
+    color: #6b7280;
+    font-weight: bold;
+}
+/* Final Admin Dashboard Polish */
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.admin-header {
+    border: 1px solid #e5e7eb;
+}
+
+.stat-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+#bookingsList > div {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#bookingsList > div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+/* Mobile Responsive Admin Panel */
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .admin-header {
+        padding: 20px;
+    }
+
+    .stats-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .stat-card {
+        width: auto;
+        padding: 15px;
+    }
+
+    #bookingsList > div {
+        padding: 15px;
+        overflow-wrap: break-word;
+    }
+
+    select,
+    button {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-header h1 {
+        font-size: 25px;
+    }
+}
