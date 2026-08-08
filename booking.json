@@ -1,11 +1,11 @@
 [
   {
     "trackingNumber": "SW1785947538672",
-    "pickupAddress": "karachi",
-    "deliveryAddress": "lahore",
-    "packageDetails": "documents",
+    "pickupAddress": "burewala",
+    "deliveryAddress": "burewala",
+    "packageDetails": "cantt",
     "date": "8/5/2026, 9:32:18 AM",
-    "status": "In Transit"
+    "status": "Delivered"
   },
   {
     "trackingNumber": "SW1785997708495",
@@ -22,13 +22,5 @@
     "packageDetails": "Documents",
     "status": "Picked Up",
     "date": "8/6/2026, 9:00:44 AM"
-  },
-  {
-    "trackingNumber": "SW1786035328658",
-    "pickupAddress": "Lahore",
-    "deliveryAddress": "Islamabad",
-    "packageDetails": "Shoes",
-    "status": "Booked",
-    "date": "8/6/2026, 9:55:28 AM"
   }
 ]
