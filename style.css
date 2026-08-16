@@ -854,3 +854,21 @@ footer a:hover {
         display: flex;
     }
 }
+
+.image-gallery {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
