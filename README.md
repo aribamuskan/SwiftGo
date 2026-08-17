@@ -24,16 +24,14 @@ operations in one place.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **HTML5** — Website structure
-- **CSS3** — Styling and responsive design
-- **JavaScript** — Interactive functionality
-- **Node.js** — Backend environment
-- **Express.js** — Server-side framework
-- **Git & GitHub** — Version control
-
----
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Git & GitHub
+- Railway
 
 ## 📂 Main Modules
 
