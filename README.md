@@ -33,6 +33,8 @@ operations in one place.
 - Git & GitHub
 - Railway
 
+ ---
+
 ## 📂 Main Modules
 
 ### 📦 Booking System
@@ -50,6 +52,29 @@ shipment statuses.
 ### 📊 Booking Management
 Provides an organized interface for monitoring and managing courier
 operations.
+
+---
+
+## 📁 Project Structure
+
+- `index.html` — Customer-facing home page
+- `booking.json` — Booking data management
+- `item.trackingNumber` — Tracking number data
+- `admin.html` — Admin dashboard
+- `admin.css` — Admin panel styling
+- `script.js` — Frontend functionality
+- `server.js` — Backend/server configuration
+- `images/` — Project screenshots and assets
+
+---
+
+## 🚀 Future Improvements
+
+- 🔐 User authentication and role-based access
+- 💳 Online payment integration
+- 📍 Real-time courier location tracking
+- 📱 Mobile application support
+- 🔔 Delivery notifications
 
 ---
 
@@ -73,3 +98,11 @@ git clone https://github.com/aribamuskan/SwiftGo.git
 
 ### 📊 Admin Dashboard
 ![SwiftGo Admin Dashboard](images/dashboard.png)
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Ariba Muskan**
+
+GitHub: [@aribamuskan](https://github.com/aribamuskan)
