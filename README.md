@@ -1,47 +1,60 @@
-# SwiftGo 🚚
+# 🚚 SwiftGo
 
-### Courier Management Website
+### Modern Courier & Delivery Management Platform
 
-SwiftGo is a modern courier management web application designed to simplify booking, shipment tracking, and administrative management in one place.
+SwiftGo is a modern courier management web application designed to simplify
+booking, shipment tracking, delivery status management, and administrative
+operations in one place.
 
-## 🚀 Features
+---
+
+## ✨ Features
 
 - 📦 Create courier bookings
 - 🔢 Automatic tracking number generation
-- 🔍 Track shipments using tracking numbers
+- 🔎 Track shipments using tracking numbers
 - 📊 Admin dashboard with booking statistics
 - 🔄 Update and manage booking statuses
-- 📋 Admin booking management
-- 🎯 Customer tracking interface
-- 📱 Responsive and user-friendly interface
+- 👤 Customer tracking interface
+- 🛠️ Admin booking management
+- 📱 Responsive and user-friendly design
+
+---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- JSON
-- Node.js / npm
+- **HTML5** — Website structure
+- **CSS3** — Styling and responsive design
+- **JavaScript** — Interactive functionality
+- **Node.js** — Backend environment
+- **Express.js** — Server-side framework
+- **Git & GitHub** — Version control
 
-## 📂 Project Structure
+---
 
-The project includes:
+## 📂 Main Modules
 
-- Customer booking interface
-- Customer tracking page
-- Admin dashboard
-- Booking management
-- Shipment status management
-- Tracking number system
+### 📦 Booking System
+Create and manage courier delivery bookings with automatically generated
+tracking numbers.
 
-## 🎯 Purpose
+### 🔎 Tracking System
+Customers can enter their tracking number to check the current delivery
+status.
 
-SwiftGo was developed as a portfolio project to demonstrate frontend development, UI/UX design, JavaScript functionality, data handling, and dashboard development.
+### 🛠️ Admin Dashboard
+Administrators can view bookings, manage delivery information, and update
+shipment statuses.
 
-## 👩‍💻 Developer
+### 📊 Booking Management
+Provides an organized interface for monitoring and managing courier
+operations.
 
-**Ariba Muskan**
+---
 
-Frontend Developer | UI/UX Designer
+## 🚀 Getting Started
 
-Open to freelance web development and UI/UX projects.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/aribamuskan/SwiftGo.git
